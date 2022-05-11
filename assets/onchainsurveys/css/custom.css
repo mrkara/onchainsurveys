@@ -1,0 +1,130 @@
+.menu_wallet {
+	border: 2px solid #e41645;
+	padding: 5px;
+}
+
+#menu_wallet{
+	border-radius: 15px !important;
+}
+
+.services .card-body{
+	height: 400px;
+}
+
+#profile_sidebar li {
+	cursor: pointer;
+}
+
+/*@media(min-width:576px){
+	.social-icons li { margin: -1px 10px 0 0;  }
+}
+
+@media(min-width:768px){
+	.social-icons li { margin: -1px 10px 0 0;  }
+}
+
+@media(min-width:992px){
+	.social-icons li { margin: -1px 10px 0 0;  }
+}
+
+@media(min-width:1200px){
+	.social-icons li { margin: -1px 10px 0 0;  }
+}
+
+@media(min-width:1400px){
+	.social-icons li { margin: -1px 10px 0 0;  }
+}*/
+
+
+@media only screen and (max-width: 600px) {
+  .social-icons li { margin: -1px 5px 0 0;  }
+}
+
+/*  create form error */
+.form-error{
+	border: 1px solid #b82b38;
+    box-shadow: 1px 1px 5px 3px #b82b38;
+}
+
+
+/* create form style edit */ 
+html.dark form:not(.form-style-4) .form-control{
+	background-color: #ffffffb8;
+    border-color: #ffffffb8;
+}
+
+
+/* all survey table style */
+.table {
+	background: #292929;
+	color: #FFF !important;
+}
+
+.table a {
+	color: #FFF !important;
+}
+
+.table tr:hover > td {
+	color: #fff;
+} 
+
+span.surver_time { font-size: 12px; }
+
+table a { color: #2c3237; }
+table a:hover { color: #454455; }
+
+@media only screen and (min-width:1200px){ /* XL */
+		.table{
+			font-size:14px;
+		}
+	}
+	
+	@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+		table{
+			font-size:13px;
+		}
+	}
+	
+	@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+		table{
+			font-size:12px;
+		}
+	}
+	
+	@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+		table{
+			font-size:11px;
+		}
+	}
+	
+	@media only screen and (max-width:575px){ /* XS */
+		table{
+			font-size:10px;
+		}
+	}
+
+ 
+#createSurvey .form-group.input-group textarea::placeholder,#createSurvey .form-group.input-group input::placeholder {
+	color: #292929;
+}
+
+.swal2-popup{
+	background-color: #292929 !important;
+}
+
+.swal2-styled.swal2-confirm:focus,.swal2-styled.swal2-default-outline:focus {
+	box-shadow: 0 0 0 3px #6c757d !important;
+}
+
+.swal2-html-container{
+	color: #757575 !important;
+}
+
+.swal2-styled.swal2-confirm {
+	background-color: rgb(108, 117, 125) !important;
+}
+
+#all_survey tbody td,#my_survey tbody td {
+	max-width: 270;
+}
+
